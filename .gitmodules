@@ -1,3 +1,6 @@
 [submodule "iOSClient/Src/Common/ThirdParty/SDWebImage"]
 	path = iOSClient/Src/Common/ThirdParty/SDWebImage
 	url = https://github.com/rs/SDWebImage.git
+[submodule "iOSClient/Src/Common/ThirdParty/AFNetworking"]
+	path = iOSClient/Src/Common/ThirdParty/AFNetworking
+	url = https://github.com/AFNetworking/AFNetworking.git
