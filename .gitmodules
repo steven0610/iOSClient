@@ -1,0 +1,3 @@
+[submodule "iOSClient/Src/Common/ThirdParty/SDWebImage"]
+	path = iOSClient/Src/Common/ThirdParty/SDWebImage
+	url = https://github.com/rs/SDWebImage.git
