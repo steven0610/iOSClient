@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		370A93E81DCB40D4007F14D8 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3715322E1DCB240800CBBFBF /* AFNetworking.framework */; };
+		370A95161DCB4233007F14D8 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370A950F1DCB420A007F14D8 /* SDWebImage.framework */; };
+		370A96521DCB4831007F14D8 /* BlocksKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370A96421DCB4639007F14D8 /* BlocksKit.framework */; };
+		370A972D1DCB4CEA007F14D8 /* note.txt in Resources */ = {isa = PBXBuildFile; fileRef = 370A972C1DCB4CEA007F14D8 /* note.txt */; };
+		370A972F1DCB4F65007F14D8 /* Bugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370A972E1DCB4F65007F14D8 /* Bugly.framework */; };
+		370A97321DCB53C7007F14D8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370A97311DCB53C7007F14D8 /* SystemConfiguration.framework */; };
+		370A97341DCB53CC007F14D8 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370A97331DCB53CC007F14D8 /* Security.framework */; };
+		370A97361DCB53DE007F14D8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 370A97351DCB53DE007F14D8 /* libz.tbd */; };
 		3715307B1DCAE71100CBBFBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3715307A1DCAE71100CBBFBF /* main.m */; };
 		371530841DCAE71100CBBFBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371530821DCAE71100CBBFBF /* Main.storyboard */; };
 		371530861DCAE71100CBBFBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371530851DCAE71100CBBFBF /* Assets.xcassets */; };
@@ -18,6 +26,90 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		370A950A1DCB420A007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A95011DCB420A007F14D8 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = "SDWebImage iOS static";
+		};
+		370A950C1DCB420A007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A95011DCB420A007F14D8 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4314D1991D0E0E3B004B36C9;
+			remoteInfo = "SDWebImage watchOS static";
+		};
+		370A950E1DCB420A007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A95011DCB420A007F14D8 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
+			remoteInfo = "SDWebImage iOS";
+		};
+		370A95101DCB420A007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A95011DCB420A007F14D8 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 00733A4C1BC487C000A5A117;
+			remoteInfo = "SDWebImage tvOS";
+		};
+		370A95121DCB420A007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A95011DCB420A007F14D8 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 431BB7031D06D2C1006A3455;
+			remoteInfo = "SDWebImage watchOS";
+		};
+		370A95141DCB420A007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A95011DCB420A007F14D8 /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4397D2F21D0DDD8C00BB2784;
+			remoteInfo = "SDWebImage OSX";
+		};
+		370A963D1DCB4639007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A96341DCB4639007F14D8 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB9B96371B3A52E500940D20;
+			remoteInfo = BlocksKit;
+		};
+		370A963F1DCB4639007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A96341DCB4639007F14D8 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB9B96401B3A52E500940D20;
+			remoteInfo = BlocksKitTests;
+		};
+		370A96411DCB4639007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A96341DCB4639007F14D8 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB9B96181B3A52A700940D20;
+			remoteInfo = MobileBlocksKit;
+		};
+		370A96431DCB4639007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A96341DCB4639007F14D8 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB9B96221B3A52A700940D20;
+			remoteInfo = MobileBlocksKitTests;
+		};
+		370A96451DCB4639007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A96341DCB4639007F14D8 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB9B96521B3A531F00940D20;
+			remoteInfo = MobileBlocksKitLegacy;
+		};
+		370A96471DCB4639007F14D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 370A96341DCB4639007F14D8 /* BlocksKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DBBDD1E51B3A553E008909B0;
+			remoteInfo = "BlocksKit Mac Demo";
+		};
 		371530901DCAE71100CBBFBF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3715306E1DCAE71100CBBFBF /* Project object */;
@@ -32,9 +124,65 @@
 			remoteGlobalIDString = 371530751DCAE71100CBBFBF;
 			remoteInfo = iOSClient;
 		};
+		3715322D1DCB240800CBBFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371532231DCB240700CBBFBF /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522391BBF104D00859F49;
+			remoteInfo = "AFNetworking iOS";
+		};
+		3715322F1DCB240800CBBFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371532231DCB240700CBBFBF /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522651BBF129200859F49;
+			remoteInfo = "AFNetworking watchOS";
+		};
+		371532311DCB240800CBBFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371532231DCB240700CBBFBF /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 299522771BBF136400859F49;
+			remoteInfo = "AFNetworking OS X";
+		};
+		371532331DCB240800CBBFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371532231DCB240700CBBFBF /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2987B0A51BC408A200179A4C;
+			remoteInfo = "AFNetworking tvOS";
+		};
+		371532351DCB240800CBBFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371532231DCB240700CBBFBF /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 298D7C3B1BC2C79500FD3B3E;
+			remoteInfo = "AFNetworking iOS Tests";
+		};
+		371532371DCB240800CBBFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371532231DCB240700CBBFBF /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 298D7C4A1BC2C7B200FD3B3E;
+			remoteInfo = "AFNetworking Mac OS X Tests";
+		};
+		371532391DCB240800CBBFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 371532231DCB240700CBBFBF /* AFNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2987B0AE1BC408A200179A4C;
+			remoteInfo = "AFNetworking tvOS Tests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		370A95011DCB420A007F14D8 /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		370A96341DCB4639007F14D8 /* BlocksKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = BlocksKit.xcodeproj; sourceTree = "<group>"; };
+		370A972C1DCB4CEA007F14D8 /* note.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = note.txt; sourceTree = "<group>"; };
+		370A972E1DCB4F65007F14D8 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		370A97311DCB53C7007F14D8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		370A97331DCB53CC007F14D8 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		370A97351DCB53DE007F14D8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		371530761DCAE71100CBBFBF /* iOSClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3715307A1DCAE71100CBBFBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		371530831DCAE71100CBBFBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +199,7 @@
 		371530AF1DCAE75200CBBFBF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		371530B01DCAE75200CBBFBF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		371530B11DCAE75200CBBFBF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		371532231DCB240700CBBFBF /* AFNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = AFNetworking.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +207,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370A97361DCB53DE007F14D8 /* libz.tbd in Frameworks */,
+				370A97341DCB53CC007F14D8 /* Security.framework in Frameworks */,
+				370A97321DCB53C7007F14D8 /* SystemConfiguration.framework in Frameworks */,
+				370A96521DCB4831007F14D8 /* BlocksKit.framework in Frameworks */,
+				370A95161DCB4233007F14D8 /* SDWebImage.framework in Frameworks */,
+				370A972F1DCB4F65007F14D8 /* Bugly.framework in Frameworks */,
+				370A93E81DCB40D4007F14D8 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +234,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		370A93E91DCB41F8007F14D8 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				370A95011DCB420A007F14D8 /* SDWebImage.xcodeproj */,
+			);
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		370A95021DCB420A007F14D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370A950B1DCB420A007F14D8 /* libSDWebImage iOS static.a */,
+				370A950D1DCB420A007F14D8 /* libSDWebImage watchOS static.a */,
+				370A950F1DCB420A007F14D8 /* SDWebImage.framework */,
+				370A95111DCB420A007F14D8 /* SDWebImage.framework */,
+				370A95131DCB420A007F14D8 /* SDWebImage.framework */,
+				370A95151DCB420A007F14D8 /* SDWebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370A95171DCB462A007F14D8 /* BlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				370A96341DCB4639007F14D8 /* BlocksKit.xcodeproj */,
+			);
+			path = BlocksKit;
+			sourceTree = "<group>";
+		};
+		370A96351DCB4639007F14D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				370A963E1DCB4639007F14D8 /* BlocksKit.framework */,
+				370A96401DCB4639007F14D8 /* BlocksKitTests.xctest */,
+				370A96421DCB4639007F14D8 /* BlocksKit.framework */,
+				370A96441DCB4639007F14D8 /* BlocksKitTests.xctest */,
+				370A96461DCB4639007F14D8 /* libMobileBlocksKitLegacy.a */,
+				370A96481DCB4639007F14D8 /* BlocksKit Mac Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		370A97291DCB4C69007F14D8 /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				370A972E1DCB4F65007F14D8 /* Bugly.framework */,
+				370A972C1DCB4CEA007F14D8 /* note.txt */,
+			);
+			path = Bugly;
+			sourceTree = "<group>";
+		};
+		370A97301DCB53C7007F14D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				370A97351DCB53DE007F14D8 /* libz.tbd */,
+				370A97331DCB53CC007F14D8 /* Security.framework */,
+				370A97311DCB53C7007F14D8 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3715306D1DCAE71100CBBFBF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +302,7 @@
 				371530921DCAE71100CBBFBF /* iOSClientTests */,
 				3715309D1DCAE71100CBBFBF /* iOSClientUITests */,
 				371530771DCAE71100CBBFBF /* Products */,
+				370A97301DCB53C7007F14D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -169,6 +387,10 @@
 		371530B51DCAEE6900CBBFBF /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				370A97291DCB4C69007F14D8 /* Bugly */,
+				370A95171DCB462A007F14D8 /* BlocksKit */,
+				370A93E91DCB41F8007F14D8 /* SDWebImage */,
+				371530BE1DCB23F400CBBFBF /* AFNetworking */,
 			);
 			path = ThirdParty;
 			sourceTree = "<group>";
@@ -178,6 +400,28 @@
 			children = (
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		371530BE1DCB23F400CBBFBF /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				371532231DCB240700CBBFBF /* AFNetworking.xcodeproj */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		371532241DCB240700CBBFBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3715322E1DCB240800CBBFBF /* AFNetworking.framework */,
+				371532301DCB240800CBBFBF /* AFNetworking.framework */,
+				371532321DCB240800CBBFBF /* AFNetworking.framework */,
+				371532341DCB240800CBBFBF /* AFNetworking.framework */,
+				371532361DCB240800CBBFBF /* AFNetworking iOS Tests.xctest */,
+				371532381DCB240800CBBFBF /* AFNetworking Mac OS X Tests.xctest */,
+				3715323A1DCB240800CBBFBF /* AFNetworking tvOS Tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +516,20 @@
 			mainGroup = 3715306D1DCAE71100CBBFBF;
 			productRefGroup = 371530771DCAE71100CBBFBF /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 371532241DCB240700CBBFBF /* Products */;
+					ProjectRef = 371532231DCB240700CBBFBF /* AFNetworking.xcodeproj */;
+				},
+				{
+					ProductGroup = 370A96351DCB4639007F14D8 /* Products */;
+					ProjectRef = 370A96341DCB4639007F14D8 /* BlocksKit.xcodeproj */;
+				},
+				{
+					ProductGroup = 370A95021DCB420A007F14D8 /* Products */;
+					ProjectRef = 370A95011DCB420A007F14D8 /* SDWebImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				371530751DCAE71100CBBFBF /* iOSClient */,
@@ -281,11 +539,148 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		370A950B1DCB420A007F14D8 /* libSDWebImage iOS static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage iOS static.a";
+			remoteRef = 370A950A1DCB420A007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A950D1DCB420A007F14D8 /* libSDWebImage watchOS static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage watchOS static.a";
+			remoteRef = 370A950C1DCB420A007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A950F1DCB420A007F14D8 /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 370A950E1DCB420A007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A95111DCB420A007F14D8 /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 370A95101DCB420A007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A95131DCB420A007F14D8 /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 370A95121DCB420A007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A95151DCB420A007F14D8 /* SDWebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SDWebImage.framework;
+			remoteRef = 370A95141DCB420A007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A963E1DCB4639007F14D8 /* BlocksKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BlocksKit.framework;
+			remoteRef = 370A963D1DCB4639007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A96401DCB4639007F14D8 /* BlocksKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BlocksKitTests.xctest;
+			remoteRef = 370A963F1DCB4639007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A96421DCB4639007F14D8 /* BlocksKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = BlocksKit.framework;
+			remoteRef = 370A96411DCB4639007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A96441DCB4639007F14D8 /* BlocksKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BlocksKitTests.xctest;
+			remoteRef = 370A96431DCB4639007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A96461DCB4639007F14D8 /* libMobileBlocksKitLegacy.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMobileBlocksKitLegacy.a;
+			remoteRef = 370A96451DCB4639007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		370A96481DCB4639007F14D8 /* BlocksKit Mac Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "BlocksKit Mac Demo.app";
+			remoteRef = 370A96471DCB4639007F14D8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3715322E1DCB240800CBBFBF /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 3715322D1DCB240800CBBFBF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		371532301DCB240800CBBFBF /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 3715322F1DCB240800CBBFBF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		371532321DCB240800CBBFBF /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 371532311DCB240800CBBFBF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		371532341DCB240800CBBFBF /* AFNetworking.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AFNetworking.framework;
+			remoteRef = 371532331DCB240800CBBFBF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		371532361DCB240800CBBFBF /* AFNetworking iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking iOS Tests.xctest";
+			remoteRef = 371532351DCB240800CBBFBF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		371532381DCB240800CBBFBF /* AFNetworking Mac OS X Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking Mac OS X Tests.xctest";
+			remoteRef = 371532371DCB240800CBBFBF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3715323A1DCB240800CBBFBF /* AFNetworking tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "AFNetworking tvOS Tests.xctest";
+			remoteRef = 371532391DCB240800CBBFBF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		371530741DCAE71100CBBFBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				370A972D1DCB4CEA007F14D8 /* note.txt in Resources */,
 				371530891DCAE71100CBBFBF /* LaunchScreen.storyboard in Resources */,
 				371530861DCAE71100CBBFBF /* Assets.xcassets in Resources */,
 				371530841DCAE71100CBBFBF /* Main.storyboard in Resources */,
@@ -464,6 +859,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/Bugly/Bugly-iOS-Demo/Pods/Bugly",
+					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/Bugly-2.4.0",
+					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/Bugly",
+				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = iOSClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = renrendev.com.iOSClient;
@@ -475,6 +877,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/Bugly/Bugly-iOS-Demo/Pods/Bugly",
+					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/Bugly-2.4.0",
+					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/Bugly",
+				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = iOSClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = renrendev.com.iOSClient;

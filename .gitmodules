@@ -25,9 +25,6 @@
 [submodule "iOSClient/Src/Common/ThirdParty/YYModel"]
 	path = iOSClient/Src/Common/ThirdParty/YYModel
 	url = https://github.com/ibireme/YYModel.git
-[submodule "iOSClient/Src/Common/ThirdParty/Bugly"]
-	path = iOSClient/Src/Common/ThirdParty/Bugly
-	url = https://github.com/BuglyDevTeam/Bugly-iOS.git
 [submodule "iOSClient/Src/Common/ThirdParty/FMDB"]
 	path = iOSClient/Src/Common/ThirdParty/FMDB
 	url = https://github.com/ccgus/fmdb.git
