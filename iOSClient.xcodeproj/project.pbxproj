@@ -148,12 +148,36 @@
 		371530AD1DCAE75200CBBFBF /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				371530B41DCAEE6900CBBFBF /* Common */,
+				371530B61DCAEE6900CBBFBF /* UI */,
 				371530AE1DCAE75200CBBFBF /* AppDelegate.h */,
 				371530AF1DCAE75200CBBFBF /* AppDelegate.m */,
 				371530B01DCAE75200CBBFBF /* ViewController.h */,
 				371530B11DCAE75200CBBFBF /* ViewController.m */,
 			);
 			path = Src;
+			sourceTree = "<group>";
+		};
+		371530B41DCAEE6900CBBFBF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				371530B51DCAEE6900CBBFBF /* ThirdParty */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		371530B51DCAEE6900CBBFBF /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		371530B61DCAEE6900CBBFBF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -523,6 +547,7 @@
 				371530A51DCAE71100CBBFBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371530A61DCAE71100CBBFBF /* Build configuration list for PBXNativeTarget "iOSClientTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +556,7 @@
 				371530A81DCAE71100CBBFBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		371530A91DCAE71100CBBFBF /* Build configuration list for PBXNativeTarget "iOSClientUITests" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +565,7 @@
 				371530AB1DCAE71100CBBFBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
