@@ -4,3 +4,30 @@
 [submodule "iOSClient/Src/Common/ThirdParty/AFNetworking"]
 	path = iOSClient/Src/Common/ThirdParty/AFNetworking
 	url = https://github.com/AFNetworking/AFNetworking.git
+[submodule "iOSClient/Src/Common/ThirdParty/BlocksKit"]
+	path = iOSClient/Src/Common/ThirdParty/BlocksKit
+	url = https://github.com/zwaldowski/BlocksKit.git
+[submodule "iOSClient/Src/Common/ThirdParty/MBProgressHUD"]
+	path = iOSClient/Src/Common/ThirdParty/MBProgressHUD
+	url = https://github.com/jdg/MBProgressHUD.git
+[submodule "iOSClient/Src/Common/ThirdParty/Reachability"]
+	path = iOSClient/Src/Common/ThirdParty/Reachability
+	url = https://github.com/tonymillion/Reachability.git
+[submodule "iOSClient/Src/Common/ThirdParty/ZipArchive"]
+	path = iOSClient/Src/Common/ThirdParty/ZipArchive
+	url = https://github.com/ZipArchive/ZipArchive.git
+[submodule "iOSClient/Src/Common/ThirdParty/RNCryptor"]
+	path = iOSClient/Src/Common/ThirdParty/RNCryptor
+	url = https://github.com/RNCryptor/RNCryptor.git
+[submodule "iOSClient/Src/Common/ThirdParty/JSPatch"]
+	path = iOSClient/Src/Common/ThirdParty/JSPatch
+	url = https://github.com/bang590/JSPatch.git
+[submodule "iOSClient/Src/Common/ThirdParty/YYModel"]
+	path = iOSClient/Src/Common/ThirdParty/YYModel
+	url = https://github.com/ibireme/YYModel.git
+[submodule "iOSClient/Src/Common/ThirdParty/Bugly"]
+	path = iOSClient/Src/Common/ThirdParty/Bugly
+	url = https://github.com/BuglyDevTeam/Bugly-iOS.git
+[submodule "iOSClient/Src/Common/ThirdParty/FMDB"]
+	path = iOSClient/Src/Common/ThirdParty/FMDB
+	url = https://github.com/ccgus/fmdb.git
