@@ -79,11 +79,11 @@
 		372461881DD1AA420014CF43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372461871DD1AA420014CF43 /* CoreGraphics.framework */; };
 		372461DC1DD1AB680014CF43 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372461D91DD1AB310014CF43 /* Reachability.framework */; };
 		372463271DD1AC180014CF43 /* YYModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372463241DD1AC0F0014CF43 /* YYModel.framework */; };
-		372B1A721DD1BB0800136170 /* GT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372B1A6D1DD1BB0800136170 /* GT.framework */; };
-		372B1A731DD1BB0800136170 /* GT.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 372B1A6F1DD1BB0800136170 /* GT.bundle */; };
 		372B1A751DD1BBB600136170 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372B1A741DD1BBB600136170 /* AudioToolbox.framework */; };
 		372B1A771DD1BBC900136170 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372B1A761DD1BBC900136170 /* CoreTelephony.framework */; };
 		372B1A7C1DD1BD5000136170 /* DevToolsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 372B1A7B1DD1BD5000136170 /* DevToolsManager.m */; };
+		37B9D8541DDF1CD6002AC5E7 /* GT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37B9D8511DDF1CD6002AC5E7 /* GT.framework */; };
+		37B9D8551DDF1CD6002AC5E7 /* GT.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 37B9D8531DDF1CD6002AC5E7 /* GT.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -453,12 +453,12 @@
 		372461871DD1AA420014CF43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		372461D31DD1AB310014CF43 /* Framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Framework.xcodeproj; path = Framework/Framework.xcodeproj; sourceTree = "<group>"; };
 		3724631E1DD1AC0F0014CF43 /* YYModel.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = YYModel.xcodeproj; path = Framework/YYModel.xcodeproj; sourceTree = "<group>"; };
-		372B1A6D1DD1BB0800136170 /* GT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GT.framework; sourceTree = "<group>"; };
-		372B1A6F1DD1BB0800136170 /* GT.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GT.bundle; sourceTree = "<group>"; };
 		372B1A741DD1BBB600136170 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		372B1A761DD1BBC900136170 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		372B1A7A1DD1BD5000136170 /* DevToolsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DevToolsManager.h; sourceTree = "<group>"; };
 		372B1A7B1DD1BD5000136170 /* DevToolsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DevToolsManager.m; sourceTree = "<group>"; };
+		37B9D8511DDF1CD6002AC5E7 /* GT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GT.framework; sourceTree = "<group>"; };
+		37B9D8531DDF1CD6002AC5E7 /* GT.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GT.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -469,11 +469,11 @@
 				372B1A771DD1BBC900136170 /* CoreTelephony.framework in Frameworks */,
 				372B1A751DD1BBB600136170 /* AudioToolbox.framework in Frameworks */,
 				372463271DD1AC180014CF43 /* YYModel.framework in Frameworks */,
-				372B1A721DD1BB0800136170 /* GT.framework in Frameworks */,
 				372461DC1DD1AB680014CF43 /* Reachability.framework in Frameworks */,
 				372461881DD1AA420014CF43 /* CoreGraphics.framework in Frameworks */,
 				372461861DD1AA3B0014CF43 /* QuartzCore.framework in Frameworks */,
 				372461841DD1A9F30014CF43 /* MBProgressHUD.framework in Frameworks */,
+				37B9D8541DDF1CD6002AC5E7 /* GT.framework in Frameworks */,
 				372461261DD189780014CF43 /* JavaScriptCore.framework in Frameworks */,
 				37245EA61DD188590014CF43 /* FMDB.framework in Frameworks */,
 				37245E901DD185D20014CF43 /* libsqlite3.0.tbd in Frameworks */,
@@ -654,7 +654,7 @@
 		371530B51DCAEE6900CBBFBF /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
-				372B1A6A1DD1BB0800136170 /* GT */,
+				37B9D84F1DDF1CD6002AC5E7 /* GT */,
 				372463281DD1AD940014CF43 /* Bugly */,
 				372461DD1DD1ABFC0014CF43 /* YYModel */,
 				372461891DD1AB210014CF43 /* Reachability */,
@@ -1045,23 +1045,6 @@
 			path = Bugly;
 			sourceTree = "<group>";
 		};
-		372B1A6A1DD1BB0800136170 /* GT */ = {
-			isa = PBXGroup;
-			children = (
-				372B1A6D1DD1BB0800136170 /* GT.framework */,
-				372B1A6E1DD1BB0800136170 /* Resources */,
-			);
-			path = GT;
-			sourceTree = "<group>";
-		};
-		372B1A6E1DD1BB0800136170 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				372B1A6F1DD1BB0800136170 /* GT.bundle */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		372B1A791DD1BD3C00136170 /* DevTools */ = {
 			isa = PBXGroup;
 			children = (
@@ -1069,6 +1052,31 @@
 				372B1A7B1DD1BD5000136170 /* DevToolsManager.m */,
 			);
 			path = DevTools;
+			sourceTree = "<group>";
+		};
+		37B9D84F1DDF1CD6002AC5E7 /* GT */ = {
+			isa = PBXGroup;
+			children = (
+				37B9D8501DDF1CD6002AC5E7 /* GT.V2.4 */,
+			);
+			path = GT;
+			sourceTree = "<group>";
+		};
+		37B9D8501DDF1CD6002AC5E7 /* GT.V2.4 */ = {
+			isa = PBXGroup;
+			children = (
+				37B9D8511DDF1CD6002AC5E7 /* GT.framework */,
+				37B9D8521DDF1CD6002AC5E7 /* Resources */,
+			);
+			path = GT.V2.4;
+			sourceTree = "<group>";
+		};
+		37B9D8521DDF1CD6002AC5E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				37B9D8531DDF1CD6002AC5E7 /* GT.bundle */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1430,7 +1438,7 @@
 			files = (
 				371530891DCAE71100CBBFBF /* LaunchScreen.storyboard in Resources */,
 				372461241DD189450014CF43 /* packer.php in Resources */,
-				372B1A731DD1BB0800136170 /* GT.bundle in Resources */,
+				37B9D8551DDF1CD6002AC5E7 /* GT.bundle in Resources */,
 				371530861DCAE71100CBBFBF /* Assets.xcassets in Resources */,
 				3724611C1DD189450014CF43 /* JSPatch.js in Resources */,
 				371530841DCAE71100CBBFBF /* Main.storyboard in Resources */,
@@ -1665,6 +1673,7 @@
 					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/Bugly",
 					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/GT/GT.embeddedframework",
 					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/GT",
+					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/GT/GT.V2.4",
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = iOSClient/Info.plist;
@@ -1691,6 +1700,7 @@
 					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/Bugly",
 					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/GT/GT.embeddedframework",
 					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/GT",
+					"$(PROJECT_DIR)/iOSClient/Src/Common/ThirdParty/GT/GT.V2.4",
 				);
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = iOSClient/Info.plist;
