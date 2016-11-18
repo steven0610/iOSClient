@@ -13,12 +13,6 @@
 [submodule "iOSClient/Src/Common/ThirdParty/Reachability"]
 	path = iOSClient/Src/Common/ThirdParty/Reachability
 	url = https://github.com/tonymillion/Reachability.git
-[submodule "iOSClient/Src/Common/ThirdParty/ZipArchive"]
-	path = iOSClient/Src/Common/ThirdParty/ZipArchive
-	url = https://github.com/ZipArchive/ZipArchive.git
-[submodule "iOSClient/Src/Common/ThirdParty/RNCryptor"]
-	path = iOSClient/Src/Common/ThirdParty/RNCryptor
-	url = https://github.com/RNCryptor/RNCryptor.git
 [submodule "iOSClient/Src/Common/ThirdParty/JSPatch"]
 	path = iOSClient/Src/Common/ThirdParty/JSPatch
 	url = https://github.com/bang590/JSPatch.git

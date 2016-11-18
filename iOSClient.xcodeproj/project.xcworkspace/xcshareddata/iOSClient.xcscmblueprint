@@ -4,28 +4,50 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "CADC4D1B031AED4FEFB66A1DCF54AE5FF592E1F0" : 9223372036854775807,
     "272F684BDB48C12FB82F63EFB90FF2436BBA2473" : 9223372036854775807,
     "E28E36D423EC87798E52E2BF482E9F7A1E6479D6" : 9223372036854775807,
-    "34B98B0D00779920B097AC78385BFB8778F9B564" : 9223372036854775807,
-    "FDBD3DB63BD683E7863587A2AB2AE5B48EECD4C9" : 9223372036854775807,
+    "C3339B365A7E5D6D5058E70B093D4E7EA5F9D6A9" : 9223372036854775807,
+    "236E24CD9527872532CD4A264918850A63096D37" : 9223372036854775807,
     "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : 9223372036854775807,
-    "236E24CD9527872532CD4A264918850A63096D37" : 9223372036854775807
+    "0104904A6E66B3737E89F93E333177FA001D0B29" : 9223372036854775807,
+    "4182765C525509B305166AB949D5935FD5C85212" : 9223372036854775807,
+    "7070BA961BCA286ED2393408B1E3D78393C99B33" : 9223372036854775807,
+    "FDBD3DB63BD683E7863587A2AB2AE5B48EECD4C9" : 9223372036854775807,
+    "04101981B66E318109934C9516F88D824BB96459" : 9223372036854775807,
+    "D3564714926C5631127DFFB7457136D30CC8B346" : 9223372036854775807,
+    "CADC4D1B031AED4FEFB66A1DCF54AE5FF592E1F0" : 9223372036854775807,
+    "34B98B0D00779920B097AC78385BFB8778F9B564" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9EFE4B55-A0C9-49CE-8C43-5A761263FB02",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "CADC4D1B031AED4FEFB66A1DCF54AE5FF592E1F0" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/SDWebImage\/Vendors\/FLAnimatedImage\/",
     "272F684BDB48C12FB82F63EFB90FF2436BBA2473" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/SDWebImage\/Vendors\/libwebp\/",
     "E28E36D423EC87798E52E2BF482E9F7A1E6479D6" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/SDWebImage\/",
-    "34B98B0D00779920B097AC78385BFB8778F9B564" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/Bugly\/",
-    "FDBD3DB63BD683E7863587A2AB2AE5B48EECD4C9" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/BlocksKit\/",
+    "C3339B365A7E5D6D5058E70B093D4E7EA5F9D6A9" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/YYModel\/",
+    "236E24CD9527872532CD4A264918850A63096D37" : "iOSClient\/",
     "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/AFNetworking\/",
-    "236E24CD9527872532CD4A264918850A63096D37" : "iOSClient\/"
+    "0104904A6E66B3737E89F93E333177FA001D0B29" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/JSPatch\/",
+    "4182765C525509B305166AB949D5935FD5C85212" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/MBProgressHUD\/",
+    "7070BA961BCA286ED2393408B1E3D78393C99B33" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/Reachability\/",
+    "FDBD3DB63BD683E7863587A2AB2AE5B48EECD4C9" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/BlocksKit\/",
+    "04101981B66E318109934C9516F88D824BB96459" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/FMDB\/",
+    "D3564714926C5631127DFFB7457136D30CC8B346" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/GT\/",
+    "CADC4D1B031AED4FEFB66A1DCF54AE5FF592E1F0" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/SDWebImage\/Vendors\/FLAnimatedImage\/",
+    "34B98B0D00779920B097AC78385BFB8778F9B564" : "iOSClient\/iOSClient\/Src\/Common\/ThirdParty\/Bugly\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "iOSClient",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iOSClient.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/bang590\/JSPatch.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0104904A6E66B3737E89F93E333177FA001D0B29"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ccgus\/fmdb.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04101981B66E318109934C9516F88D824BB96459"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/steven0610\/iOSClient.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
@@ -42,9 +64,29 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "34B98B0D00779920B097AC78385BFB8778F9B564"
     },
     {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jdg\/MBProgressHUD.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4182765C525509B305166AB949D5935FD5C85212"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tonymillion\/Reachability.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7070BA961BCA286ED2393408B1E3D78393C99B33"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ibireme\/YYModel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3339B365A7E5D6D5058E70B093D4E7EA5F9D6A9"
+    },
+    {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Flipboard\/FLAnimatedImage",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CADC4D1B031AED4FEFB66A1DCF54AE5FF592E1F0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TencentOpen\/GT.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D3564714926C5631127DFFB7457136D30CC8B346"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AFNetworking\/AFNetworking.git",
