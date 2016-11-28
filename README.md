@@ -25,4 +25,4 @@ git submodule init git submodule update
 
 step 4
 
-等待下载完成，就可以使用iOSClien 编译了。
+等待下载完成，就可以使用iOSClient 编译了。
