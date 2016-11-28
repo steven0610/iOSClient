@@ -19,7 +19,9 @@ step 3
 
 这是由于SDWebImage 使用了内部module。所以我们 cd iOSClient/Src/Common/ThirdParty/SDWebImage/ 进入到SD的目录。
 
-git submodule init git submodule update
+git submodule init
+
+git submodule update
 
 等待拉取代码完成。
 
